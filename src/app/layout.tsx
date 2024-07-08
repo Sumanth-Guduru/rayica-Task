@@ -22,7 +22,7 @@ export default function RootLayout({
              <div className="w-full lg:w-1/6">
              <Sidebar/>
       </div>
-        <div className="flex grow p-4">{children}</div>
+        <div className="flex  grow p-4">{children}</div>
         
         </div>
      

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 const CircularProgress = ({ size, strokeWidth, percentage }) => {
   const [offset, setOffset] = useState(0);
 
@@ -21,7 +22,7 @@ const CircularProgress = ({ size, strokeWidth, percentage }) => {
           cy={center}
           r={radius}
           strokeWidth={strokeWidth}
-          stroke="#757575"
+          stroke="#28282A"
           fill="transparent"
         />
         <circle
