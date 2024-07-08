@@ -16,8 +16,9 @@ const config: Config = {
       colors: {
         customSliver: 'rgb(102, 102, 104)',
         customGray:'rgb(31, 31, 33)',
-        customBlack:'rgb(40, 40, 42)',
+        customBlack:'rgb(22, 22, 24)',
         customHovercolour:'rgb(59, 59, 61)',
+        CustomGray2:'rgb(40, 40, 42)',
       },
       
      

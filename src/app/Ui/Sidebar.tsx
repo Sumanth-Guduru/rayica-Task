@@ -32,8 +32,8 @@ const Sidebar = () => {
 
       <nav className="space-y-0">
       <a href="#" className="flex items-center space-x-2 hover:bg-backgroundSoft p-2 rounded-md text-sm transition-colors duration-300 ease-in-out">
-          <RiHomeSmile2Line className="inline-block mr-2 mb-1 text-2xl text-customSliver" />
-          <span>Home</span>
+         
+          <span> <RiHomeSmile2Line className="inline-block mr-2 mb-1 text-2xl text-customSliver" />Home</span>
         </a>
         <a href="#" className="flex items-center space-x-2 hover:bg-customHovercolour p-2 rounded-md text-sm">
           <span><PiFolderBold className='inline-block mr-2 mb-1 text-2xl text-customSliver' />All files</span>
@@ -53,12 +53,12 @@ const Sidebar = () => {
         <a href="#" className="flex items-center space-x-2 hover:bg-customHovercolour p-2 rounded-md text-sm">
           <span><PiNotificationBold className='inline-block mr-2 mb-1 text-2xl text-customSliver' />Notifications</span>
         </a>
-        <a href="#" className="flex items-center space-x-2 hover:bg-customHovercolour p-2 rounded-md text-sm">
+        <a href="/settings" className="flex items-center space-x-2 hover:bg-customHovercolour p-2 rounded-md text-sm">
           <span><IoSettingsOutline className='inline-block mr-2 mb-1 text-2xl text-customSliver' />Settings</span>
         </a>
       </nav>
-      <div className="mt-auto  bg-customBlack rounded-md overflow-hidden">
-        <div className="pt-2 px-2">
+      <div className="mt-auto  bg-CustomGray2  rounded-md  overflow-hidden">
+        <div className="pt-2 px-2 ">
           <div className="flex justify-between items-center mb-2">
             <div className="text-sm text-gray-400">Storage</div>
             <button className=" text-white px-4  rounded-md text-sm">Upgrade</button>
@@ -70,7 +70,7 @@ const Sidebar = () => {
            
           </div>
           <div className="flex justify-between items-center">
-            <div className="text-sm text-gray-400">9.2 GB of 10 GB used</div>
+            <div className="text-sm text-gray-400 ">9.2 GB of 10 GB used</div>
             </div>
         </div>
       </div>
