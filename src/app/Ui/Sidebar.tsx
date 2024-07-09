@@ -33,7 +33,7 @@ const Sidebar = () => {
 </div>
 
       <nav className="space-y-0">
-      <a href="#" className="flex items-center space-x-2 hover:bg-backgroundSoft p-2 rounded-md text-sm transition-colors duration-300 ease-in-out">
+      <a href="./" className="flex items-center space-x-2 hover:bg-backgroundSoft p-2 rounded-md text-sm transition-colors duration-300 ease-in-out">
          
           <span> <RiHomeSmile2Line className="inline-block mr-2 mb-1 text-2xl text-customSliver" />Home</span>
         </a>
