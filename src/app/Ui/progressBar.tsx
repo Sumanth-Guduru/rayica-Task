@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
+interface CircularProgressProps {
+  size: number;
+  strokeWidth: number;
+  percentage: number;
+}
 
-const CircularProgress = ({ size, strokeWidth, percentage }) => {
+const CircularProgress: React.FC<CircularProgressProps> = ({ size, strokeWidth, percentage }) => {
   const [offset, setOffset] = useState(0);
 
   const center = size / 2;
@@ -37,7 +42,6 @@ const CircularProgress = ({ size, strokeWidth, percentage }) => {
           fill="transparent"
           transform={`rotate(-90 ${center} ${center})`}
         />
-        
       </svg>
     </div>
   );

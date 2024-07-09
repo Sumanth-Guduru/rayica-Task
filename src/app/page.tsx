@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main >
       <div >
-        
+        <p text-lg>Click on Settings</p>
       </div>
     </main>
   );
