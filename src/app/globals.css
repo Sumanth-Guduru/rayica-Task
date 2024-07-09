@@ -3,17 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0; /* Default foreground color for light mode */
-  --background-start-rgb: 255, 255, 255; /* Light mode background */
-  --background-end-rgb: 255, 255, 255; /* Light mode background */
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255; /* Foreground color for dark mode */
-    --background-start-rgb: 31, 31, 33; /* Updated dark mode background */
-    --background-end-rgb: 31, 31, 33; /* Updated dark mode background */
-  }
+  --foreground-rgb: 255, 255, 255; /* Default foreground color */
+  --background-start-rgb: 31, 31, 33; /* Default background */
+  --background-end-rgb: 31, 31, 33; /* Default background */
 }
 
 body {
