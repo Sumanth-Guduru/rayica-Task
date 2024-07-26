@@ -4,8 +4,8 @@ import Sidebar from "../app/Ui/Sidebar";
 export default function Home() {
   return (
     <main >
-      <div >
-        <p text-lg>Click on Settings</p>
+      <div className="" >
+        <p className=" text-2xl md:text-4xl">Click on Settings..</p>
       </div>
     </main>
   );

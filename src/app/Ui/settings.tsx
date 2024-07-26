@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { CiSearch } from 'react-icons/ci';
 import { FiPlus, FiTrash2 } from "react-icons/fi";
 import { FaRegCircleCheck } from "react-icons/fa6";
+import {Switch} from "@nextui-org/switch";
 import IOSSwitch from '../Ui/iosSwitch';
 import Braveicon from "../assets/brave-icon.svg";
 import Appleicon from "../assets/Apple_logo_white.svg.png";
